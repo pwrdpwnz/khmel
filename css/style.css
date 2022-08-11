@@ -51,10 +51,19 @@ body {
     }
 }
 
+.form {
+    display: none;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+}
 
-/*form*/
-
-
+.form-show {
+    display: flex;
+}
 
 .ufive-feedback {
     font-size: 62.5%;
